@@ -8,7 +8,6 @@ export function FlightData() {
   // Cukup panggil 1 baris ini!
   const { data, loading, error } = useAxios(apiUrl);
 
-  // Handle tampilan saat loading
   if (loading) {
     return (
       <div>
@@ -17,7 +16,6 @@ export function FlightData() {
     );
   }
 
-  // Handle tampilan jika terjadi error
   if (error) {
     return <div className="text-red-500">Error: {error}</div>;
   }

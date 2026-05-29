@@ -28,6 +28,10 @@ const data = {
           title: "Flights",
           url: "/flights",
         },
+        {
+          title: "Airports",
+          url: "/airports",
+        },
       ],
     },
     {

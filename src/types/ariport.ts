@@ -7,3 +7,9 @@ export interface Airport {
   country_name: string;
   timezone: string;
 }
+
+export interface AirportProps {
+  airports: Airport[];
+}
+
+export interface AirportDetailProps extends Airport {}
